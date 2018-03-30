@@ -1,8 +1,11 @@
 // import com from './component'
-import Sip from './swipe'
+// import Sip from './swipe'
 import React from 'react'
-import ReactDom from 'react-dom'
+import { render } from 'react-dom'
 
 // document.body.appendChild(com())
 
-ReactDom.render(<Sip></Sip>, document.body)
+render(
+    <div>Hello, world123</div>, 
+    document.getElementById('root')
+)
